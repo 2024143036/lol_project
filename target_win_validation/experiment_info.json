@@ -1,0 +1,93 @@
+{
+  "shared_matches": 38075,
+  "splits": {
+    "train": 26653,
+    "val": 5711,
+    "test": 5711
+  },
+  "seed": 42,
+  "minutes": [
+    5,
+    10,
+    15,
+    20
+  ],
+  "lanes": [
+    "top",
+    "jungle",
+    "middle",
+    "bottom"
+  ],
+  "target_candidates": [
+    "gold_gap",
+    "level_gap",
+    "gold_plus_level"
+  ],
+  "note": "One blue-side observation per match and minute. Validation determines ranking. 30 matches are insufficient for firm conclusions.",
+  "scales": {
+    "top_5m": {
+      "gold_sd": 345.36026729118095,
+      "level_sd": 0.5891863216385956
+    },
+    "top_10m": {
+      "gold_sd": 820.7893540400756,
+      "level_sd": 0.831144603057542
+    },
+    "top_15m": {
+      "gold_sd": 1455.0519580137286,
+      "level_sd": 1.0689211201597744
+    },
+    "top_20m": {
+      "gold_sd": 1988.672833549465,
+      "level_sd": 1.1971567733649968
+    },
+    "jungle_5m": {
+      "gold_sd": 408.18875454982157,
+      "level_sd": 0.6418974701117104
+    },
+    "jungle_10m": {
+      "gold_sd": 788.7975416336598,
+      "level_sd": 0.7828367744771793
+    },
+    "jungle_15m": {
+      "gold_sd": 1223.2641872666945,
+      "level_sd": 0.99301729191875
+    },
+    "jungle_20m": {
+      "gold_sd": 1785.4556011613624,
+      "level_sd": 1.3097443477189787
+    },
+    "middle_5m": {
+      "gold_sd": 333.6771788280011,
+      "level_sd": 0.5190627672606669
+    },
+    "middle_10m": {
+      "gold_sd": 728.5658490899561,
+      "level_sd": 0.6700291644429208
+    },
+    "middle_15m": {
+      "gold_sd": 1235.0822411365484,
+      "level_sd": 0.9106527983618845
+    },
+    "middle_20m": {
+      "gold_sd": 1758.773152977053,
+      "level_sd": 1.1062861213877253
+    },
+    "bottom_5m": {
+      "gold_sd": 596.7534303030546,
+      "level_sd": 0.48334180361640267
+    },
+    "bottom_10m": {
+      "gold_sd": 1174.7279769830307,
+      "level_sd": 0.5392481089726309
+    },
+    "bottom_15m": {
+      "gold_sd": 1878.0408618814458,
+      "level_sd": 0.6547231520484357
+    },
+    "bottom_20m": {
+      "gold_sd": 2558.703907352134,
+      "level_sd": 0.8118601209760646
+    }
+  }
+}

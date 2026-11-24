@@ -1,0 +1,27 @@
+# Original data
+match_data/
+match_data.7z
+match_*.json
+timeline_*.json
+
+# Large generated datasets
+datasets_5min/
+datasets_5min_fixed/
+tci_supervised/
+
+# Large or identifiable ranking outputs
+tci_summoner_ranking/
+tci_summoner_ranking_all/
+tci_summoner_ranking_test/
+
+# Model binaries
+tci_model_results/*.joblib
+
+# Python and IDE
+__pycache__/
+*.pyc
+.venv/
+.idea/
+.ipynb_checkpoints/
+tci_feature_importance/
+tci_feature_importance/

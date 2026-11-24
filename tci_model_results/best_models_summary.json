@@ -1,0 +1,96 @@
+{
+  "top": {
+    "model": "LinearRegression",
+    "test_metrics": {
+      "mae": 0.270522,
+      "rmse": 0.356431,
+      "r2": 0.851172
+    },
+    "features": [
+      "cs_diff_cum",
+      "kills_diff_cum",
+      "deaths_diff_cum",
+      "assists_diff_cum",
+      "turret_kills_diff_cum",
+      "turret_participation_diff_cum",
+      "damage_to_champions_diff_cum",
+      "total_damage_taken_diff_cum"
+    ],
+    "matches": {
+      "train": 26653,
+      "val": 5711,
+      "test": 5711
+    }
+  },
+  "jungle": {
+    "model": "XGBoost",
+    "test_metrics": {
+      "mae": 0.255684,
+      "rmse": 0.336081,
+      "r2": 0.865772
+    },
+    "features": [
+      "cs_diff_cum",
+      "kills_diff_cum",
+      "deaths_diff_cum",
+      "assists_diff_cum",
+      "turret_kills_diff_cum",
+      "turret_participation_diff_cum",
+      "damage_to_champions_diff_cum",
+      "total_damage_taken_diff_cum",
+      "dragon_participation_diff_cum",
+      "herald_participation_diff_cum"
+    ],
+    "matches": {
+      "train": 26653,
+      "val": 5711,
+      "test": 5711
+    }
+  },
+  "middle": {
+    "model": "LinearRegression",
+    "test_metrics": {
+      "mae": 0.292247,
+      "rmse": 0.391713,
+      "r2": 0.812237
+    },
+    "features": [
+      "cs_diff_cum",
+      "kills_diff_cum",
+      "deaths_diff_cum",
+      "assists_diff_cum",
+      "turret_kills_diff_cum",
+      "turret_participation_diff_cum",
+      "damage_to_champions_diff_cum",
+      "total_damage_taken_diff_cum"
+    ],
+    "matches": {
+      "train": 26653,
+      "val": 5711,
+      "test": 5711
+    }
+  },
+  "bottom": {
+    "model": "XGBoost",
+    "test_metrics": {
+      "mae": 0.310781,
+      "rmse": 0.410157,
+      "r2": 0.798501
+    },
+    "features": [
+      "cs_diff_cum",
+      "kills_diff_cum",
+      "deaths_diff_cum",
+      "assists_diff_cum",
+      "turret_kills_diff_cum",
+      "turret_participation_diff_cum",
+      "damage_to_champions_diff_cum",
+      "total_damage_taken_diff_cum"
+    ],
+    "matches": {
+      "train": 26653,
+      "val": 5711,
+      "test": 5711
+    }
+  }
+}

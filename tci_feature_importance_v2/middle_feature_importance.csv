@@ -1,0 +1,9 @@
+﻿lane,model,rank,feature,feature_label,importance_rmse_increase,importance_std,baseline_val_rmse,validation_matches,validation_rows
+middle,LinearRegression,1,cs_diff_cum,CS,0.3614711263157535,0.001447914777121634,0.38381322610606183,5711,58578
+middle,LinearRegression,2,kills_diff_cum,Kills,0.31599369694833435,0.002332750172933738,0.38381322610606183,5711,58578
+middle,LinearRegression,3,assists_diff_cum,Assists,0.04003446917721253,0.0005034936937684736,0.38381322610606183,5711,58578
+middle,LinearRegression,4,deaths_diff_cum,Deaths,0.03847549274416922,0.0007300107841054348,0.38381322610606183,5711,58578
+middle,LinearRegression,5,turret_participation_diff_cum,Turret participation,0.014869296402689872,0.0003912048928470532,0.38381322610606183,5711,58578
+middle,LinearRegression,6,turret_kills_diff_cum,Turrets destroyed,0.011191484162335893,0.00045461672347353106,0.38381322610606183,5711,58578
+middle,LinearRegression,7,total_damage_taken_diff_cum,Total damage taken,0.005517299461271372,0.0002642712406239779,0.38381322610606183,5711,58578
+middle,LinearRegression,8,damage_to_champions_diff_cum,Champion damage dealt,5.626741631871435e-05,5.841737403526704e-05,0.38381322610606183,5711,58578
